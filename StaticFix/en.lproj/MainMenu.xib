@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="22113.3" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14313.18"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22113.3"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -19,7 +18,7 @@
         </customObject>
         <menu title="StatusMenu" id="536">
             <items>
-                <menuItem title="StaticFix (1.0)" enabled="NO" id="543" userLabel="StaticFix (1.0)">
+                <menuItem title="StaticFix (1.0.1)" enabled="NO" id="543" userLabel="StaticFix (1.0)">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
                 <menuItem title="StaticFix Source Code..." id="539">
@@ -36,6 +35,7 @@
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="80" y="134"/>
         </menu>
     </objects>
 </document>
