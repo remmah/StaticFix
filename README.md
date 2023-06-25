@@ -6,7 +6,7 @@ The app sits in the menu bar, and can be quit from its menu at any time. The ene
 
 # Requirements
 
-StaticFix requires macOS 10.14.3 or later due to recommended Xcode settings and Universal Binary Support. The earlier v1.0 works going back to 10.9. The app should run on 10.8 and 10.7 if you download the source code corresponding to the 1.0 tag and then commenting out the `tolerance` property on the timer.
+StaticFix requires macOS 10.14.3 or later due to recommended Xcode settings and Universal Binary Support. The earlier v1.0 works going back to 10.9. The app should run on 10.8 and 10.7 if you download the source code corresponding to the 1.0 tag and then comment out the `tolerance` property on the timer.
 
 # Download
 
