@@ -53,7 +53,13 @@
 
 - (void)playFile
 {
-    [blankNoise play];
+    if (blankNoise.isPlaying) {
+        return;
+    }
+    else {
+        [blankNoise play];
+    }
+    
 }
 
 @end
