@@ -6,8 +6,8 @@ The app sits in the menu bar, and can be quit from its menu at any time. The ene
 
 # Requirements
 
-StaticFix requires macOS 10.9 or later due to the aforementioned use of timer coalescing. Commenting out the `tolerance` property on the timer should allow the app to run on 10.8 and 10.7.
+StaticFix requires macOS 10.14.3 or later due recommended Xcode settings and Universal Binary Support. The earlier v1.0 works going back to 10.9. The app should run on 10.8 and 10.7 if you download the source code corresponding to the 1.0 tag and then commenting out the `tolerance` property on the timer.
 
 # Download
 
-You can download a pre-built version from the [Releases](https://github.com/remmah/StaticFix/releases) tab. There will also be a pre-built version available through itch.io.
+You can download a pre-built version from the [Releases](https://github.com/remmah/StaticFix/releases) tab.
